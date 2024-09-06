@@ -1,0 +1,83 @@
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background-image: url(images/ios-13-ipados-abstract-apple-september-2019-blue.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+
+  .center-div {
+    width: 300px;
+    height: 200px;
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+  }
+
+  h1 {
+    font-size: 3em;
+    color: white;
+  }
+
+  h3 {
+    text-align: center;
+    color: white;
+  }
+
+  input{
+    padding: 15px;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    width: 300px;
+    text-align: center;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+  input::placeholder{
+    color: white;
+  }
+
+ 
+
+
+  .lg-details-name {
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .lg-details-password{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .lg-details-submit {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .btn-sub {
+    padding: 10px 40px;
+    cursor: pointer;
+    background-color: rgb(35, 76, 210);
+    color: white;
+    border: none;
+    border-radius: 40px ;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .btn-sub:hover{
+    background-color: rgb(26, 57, 158);;
+    transition: all 400ms ease;
+  }
+ 

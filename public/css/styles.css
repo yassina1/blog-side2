@@ -1,0 +1,97 @@
+/* public/styles/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    margin: 0 auto;
+    background-image: url(images/ios-13-ipados-abstract-apple-september-2019-blue.jpg);
+  }
+  
+  .container {
+    width: 80%;
+    margin: 10px auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 33px;
+  }
+
+  header {
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 30px;
+    color: white;
+  }
+  
+  header h1 {
+    text-align: center;
+    color: white;
+  }
+
+  h3 {
+    position: relative;
+    left:20px;
+  }
+  
+  .posts-list {
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  .posts-list li {
+    margin: 20px 0;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .posts-list li h2 {
+    margin: 0 0 10px;
+    text-decoration: none;
+  }
+  
+  .new-post-btn,
+  .submit-btn,
+  .back-btn {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .new-post-btn:hover,
+  .submit-btn:hover,
+  .back-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-group {
+    margin: 20px 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+
+  
